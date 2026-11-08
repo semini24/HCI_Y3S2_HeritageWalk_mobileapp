@@ -7,9 +7,13 @@ HeritageWalk Sri Lanka is a Flutter mobile application developed as a group proj
 > **Project status:** Academic project / portfolio showcase. Features and third-party integrations may require configuration or permissions before use. This README describes the team's implementation; it is not a claim that every feature has been independently verified on every device.
 
 
+
+
 💭 Overview
 
 Visitors exploring Sri Lanka's historical and cultural sites may need to switch between separate resources to discover destinations, organize visits, navigate routes, and coordinate with others. HeritageWalk Sri Lanka aims to streamline these tasks through a mobile-first, user-centred interface.
+
+
 
 
 ❤️‍🔥 Features
@@ -35,6 +39,8 @@ Localization	- English, Sinhala, and Tamil interfaces
 Content administration	- Heritage-place management and predefined place data for form auto-fill
 
 
+
+
 ➡️ Technology Stack
 
 Mobile UI: Flutter, Dart
@@ -54,6 +60,8 @@ Localization: Flutter localization tools, `intl`
 Testing: Flutter tests and Firebase security-rule validation
 
 
+
+
 📌 Architecture (high level)
 ```text
 Flutter Mobile App
@@ -71,6 +79,8 @@ Flutter Mobile App
         └── Device GPS
 ```
 This is a conceptual overview, not an exact source-code directory diagram. Replace it with the team's final architecture diagram if available.
+
+
 
 
 👏 Getting Started
@@ -105,11 +115,16 @@ flutter build apk --release
 ```
 The generated APK is normally located at `build/app/outputs/flutter-apk/app-release.apk`. A release APK requires the appropriate signing configuration for distribution.
 
+
+
+
 🎖️ Human-Centred Design Process
 
 The application was developed within the IT3060 Human Computer Interaction module, following a progression from identifying user needs and requirements to sketches, wireframes, prototypes, implementation, and evaluation.
 
 The supporting requirements PDF should summarize the research approach, stakeholder needs, key findings, and functional/non-functional requirements. The testing PDF should document test cases, expected and actual results, evidence, and usability findings where available.
+
+
 
 
 😎 Team & Contributions
@@ -127,6 +142,8 @@ Group: WD_22
 Portfolio note: If showcasing this repository on an individual portfolio, clearly state your personal contribution and credit all teammates. For example: My primary responsibility was tour discovery, itinerary planning, and saved-content workflows, including UI integration and Firestore persistence.
 
 
+
+
 🔏 Privacy & Security
 
 Location sharing is designed to be opt-in, with explicit stopping and expiry behaviour.
@@ -138,6 +155,8 @@ Do not publish real user data, raw research participant identifiers, private API
 Review third-party map tile/routing service usage policies and attribution requirements before public deployment.
 
 
+
+
 😒 Known Limitations
 Social sign-in providers require external console configuration and may not function in an unconfigured fork.
 
@@ -146,6 +165,8 @@ GPS, connectivity, map/routing availability, and device permissions affect locat
 Multi-device group-sharing behaviour should be verified on physical devices for each release.
 
 The app is an academic project and should not be presented as a production-certified navigation or emergency-response service.
+
+
 
 
 👊 License
